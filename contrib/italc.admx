@@ -21,7 +21,7 @@
     </category>
   </categories>
   <policies>
-    <policy name="POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11" class="Machine" displayName="$(string.POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11)" explainText="$(string.POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11_Help)" presentation="$(presentation.POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11)" key="SOFTWARE\iTALC Solutions\iTALC\Service" valueName="HideTrayIcon">
+    <policy name="POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11" class="Machine" displayName="$(string.POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11)" explainText="$(string.POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11_Help)" presentation="$(presentation.POL_9A9480B3_E1F7_4129_A2EE_5DEBB661FE11)" key="SOFTWARE\Nexgen Solutions\Nexgen\Service" valueName="HideTrayIcon">
       <parentCategory ref="CAT_2A348098_3EA3_4875_9ADD_F005E090EEC0" />
       <supportedOn ref="windows:SUPPORTED_WindowsXP" />
 	  <enabledValue>
@@ -31,7 +31,7 @@
             <string>0</string>
       </disabledValue>
     </policy>
-    <policy name="POL_662B8988_93CC_4255_9569_06D871FA5620" class="Machine" displayName="$(string.POL_662B8988_93CC_4255_9569_06D871FA5620)" explainText="$(string.POL_662B8988_93CC_4255_9569_06D871FA5620_Help)" key="SOFTWARE\iTALC Solutions\iTALC\Service" valueName="Autostart">
+    <policy name="POL_662B8988_93CC_4255_9569_06D871FA5620" class="Machine" displayName="$(string.POL_662B8988_93CC_4255_9569_06D871FA5620)" explainText="$(string.POL_662B8988_93CC_4255_9569_06D871FA5620_Help)" key="SOFTWARE\Nexgen Solutions\Nexgen\Service" valueName="Autostart">
       <parentCategory ref="CAT_2A348098_3EA3_4875_9ADD_F005E090EEC0" />
       <supportedOn ref="windows:SUPPORTED_WindowsXP" />
 	  <enabledValue>
@@ -41,18 +41,18 @@
             <string>0</string>
       </disabledValue>
     </policy>
-    <policy name="POL_7773AF6B_B297_400B_8D84_BBD247EAC334" class="Machine" displayName="$(string.POL_7773AF6B_B297_400B_8D84_BBD247EAC334)" explainText="$(string.POL_7773AF6B_B297_400B_8D84_BBD247EAC334_Help)" presentation="$(presentation.POL_7773AF6B_B297_400B_8D84_BBD247EAC334)" key="SOFTWARE\iTALC Solutions\iTALC\Logging" valueName="LogFileDirectory">
+    <policy name="POL_7773AF6B_B297_400B_8D84_BBD247EAC334" class="Machine" displayName="$(string.POL_7773AF6B_B297_400B_8D84_BBD247EAC334)" explainText="$(string.POL_7773AF6B_B297_400B_8D84_BBD247EAC334_Help)" presentation="$(presentation.POL_7773AF6B_B297_400B_8D84_BBD247EAC334)" key="SOFTWARE\Nexgen Solutions\Nexgen\Logging" valueName="LogFileDirectory">
       <parentCategory ref="CAT_2A348098_3EA3_4875_9ADD_F005E090EEC0" />
       <supportedOn ref="windows:SUPPORTED_WindowsXP" />
       <elements>
-        <text id="TXT_BC01A7E3_4B4C_4FC4_B216_0D094C18D960" key="SOFTWARE\iTALC Solutions\iTALC\Logging" valueName="LogFileDirectory" required="true" />
+        <text id="TXT_BC01A7E3_4B4C_4FC4_B216_0D094C18D960" key="SOFTWARE\Nexgen Solutions\Nexgen\Logging" valueName="LogFileDirectory" required="true" />
       </elements>
     </policy>
-    <policy name="POL_2EDF2411_B7EF_4E25_B545_9463015CE39E" class="Machine" displayName="$(string.POL_2EDF2411_B7EF_4E25_B545_9463015CE39E)" explainText="$(string.POL_2EDF2411_B7EF_4E25_B545_9463015CE39E_Help)" presentation="$(presentation.POL_2EDF2411_B7EF_4E25_B545_9463015CE39E)" key="SOFTWARE\iTALC Solutions\iTALC\Logging" valueName="LogLevel">
+    <policy name="POL_2EDF2411_B7EF_4E25_B545_9463015CE39E" class="Machine" displayName="$(string.POL_2EDF2411_B7EF_4E25_B545_9463015CE39E)" explainText="$(string.POL_2EDF2411_B7EF_4E25_B545_9463015CE39E_Help)" presentation="$(presentation.POL_2EDF2411_B7EF_4E25_B545_9463015CE39E)" key="SOFTWARE\Nexgen Solutions\Nexgen\Logging" valueName="LogLevel">
       <parentCategory ref="CAT_2A348098_3EA3_4875_9ADD_F005E090EEC0" />
       <supportedOn ref="windows:SUPPORTED_WindowsXP" />
       <elements>
-        <enum id="DST_B780FD16_FCA9_4ACC_BA08_99D8FE87F9C8" key="SOFTWARE\iTALC Solutions\iTALC\Logging" valueName="LogLevel">
+        <enum id="DST_B780FD16_FCA9_4ACC_BA08_99D8FE87F9C8" key="SOFTWARE\Nexgen Solutions\Nexgen\Logging" valueName="LogLevel">
           <item displayName="$(string.ITM_8ED46BE0_B873_45A7_A78C_881C66BCC8AB)">
             <value>
               <string>0</string>
